@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    font-family: cursive;
+}
+
+h1{
+    text-align: center;
+}
+
+.generate{
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 5px 5px;
+    display: grid;
+    margin: auto;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.generate:hover{
+    background-color: brown;
+    color: yellow;
+    border: solid 2px yellow;
+    transition: all 0.3s;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.color-container{
+    background-color: orange;
+    width: 300px;
+    height: 150px;
+    color: white;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: solid black 2px;
+    border-radius: 10px;
+}
